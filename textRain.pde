@@ -1,10 +1,12 @@
-int num = 200;
-int unit = 20;
+int num = 100;
+int unit = 10;
 int range = Math.round (unit*4.7);
-int gap = 1;
+int gap = 2;
 int rectSize = unit - gap*2;
 int x;
 int y;
+
+// comments
 
 PFont font;
 // The font must be located in the sketch's 
@@ -99,4 +101,3 @@ void draw()
     //text(elements, m, m+1, colNum*unit, rowNum*unit, 0);
   }
 }
-
